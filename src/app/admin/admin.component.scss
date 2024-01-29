@@ -1,0 +1,42 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+::ng-deep .mat-icon{
+  padding-top: 5px !important;
+}
+
+::ng-deep .mat-mdc-list-item-unscoped-content{
+  color: #ffffff !important;
+  padding-bottom: 26px;
+}
+
+.main {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  min-height: 90vh;
+  max-height: 95vh;
+  overflow: auto;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+
+:active.like{
+  color: red;
+
+}
+
+.sidenavTitles{
+  font-size: 15px;
+  font-weight: 650;
+}
+
+#mat-toolbar{
+  background-color: #009FFD;
+}
+
+
+

@@ -1,0 +1,40 @@
+.container{
+  width: 900px;
+  margin: 0 auto;
+
+  div{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.main_title{
+   margin-top: 10px;
+   margin-left: 30px;
+
+}
+
+::ng-deep label{
+  margin-bottom: 0;
+}
+
+#toggle{
+   margin-left: 30px;
+}
+
+
+
+label {
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+input[type='checkbox'] {
+  cursor: pointer;
+  margin-left: 12px;
+  font-size: 32px;
+  transform: scale(2.5);
+}
+

@@ -1,0 +1,18 @@
+
+ <h1 class="main_title">Xush Kelibsiz!</h1>
+ <br> <br>
+
+ <div class="container">
+   <input type="checkbox" id="blockTestCheckbox" [(ngModel)]="isTestBlocked" (change)="onCheckboxChange()">
+   <label for="blockTestCheckbox" *ngIf="isTestBlocked==false">Testni bloklash</label>
+   <label for="blockTestCheckbox" *ngIf="isTestBlocked!=false">Testni blokdan ochish</label>
+ </div>
+
+
+
+
+
+
+
+
+
